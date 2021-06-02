@@ -50,6 +50,8 @@ namespace vs_2019_github_user_experince
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+
+                string modify = modify;
             });
         }
     }
